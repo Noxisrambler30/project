@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.App-header h1 {
+  font-size: 36px;
+}
+
+.Profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Profile {
+  width: 300px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Profile img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.Profile h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.Profile p {
+  font-size: 16px;
+}
